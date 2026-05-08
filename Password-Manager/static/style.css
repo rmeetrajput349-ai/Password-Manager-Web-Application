@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #0f172a;
+    font-family: Arial, sans-serif;
+}
+
+.box{
+    width: 420px;
+    background: white;
+    margin: 60px auto;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+.box h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.box input{
+    width: 100%;
+    padding: 14px;
+    margin-top: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.box button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 18px;
+    background: #0f172a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box button:hover{
+    background: #1e293b;
+}
+
+.logout{
+    display: inline-block;
+    margin-top: 20px;
+    color: blue;
+    text-decoration: none;
+}
+
+.saved-btn{
+    margin-top: 20px;
+}
+
+.table-box{
+    width: 900px;
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.table-box h1{
+    text-align: center;
+    margin-bottom: 25px;
+    color: black;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th{
+    background: #0f172a;
+    color: white;
+    padding: 14px;
+}
+
+table td{
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    color: black;
+}
+
+table input{
+    width: 120px;
+    padding: 8px;
+    text-align: center;
+}
+
+table button{
+    padding: 8px 12px;
+    background: #0f172a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table button:hover{
+    background: #1e293b;
+}
+
+.delete-btn{
+    background: red;
+}
+
+.delete-btn:hover{
+    background: darkred;
+}
+.error-message{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
